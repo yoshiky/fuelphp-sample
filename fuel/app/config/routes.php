@@ -39,4 +39,10 @@ return array(
 	 */
 
 	'hello(/:name)?' => array('welcome/hello', 'name' => 'hello'),
+	'articles' => [
+		['GET', new Route('article/index'), 'name' => 'articles'],
+		['GET', new Route('article/new'), 'name' => 'article_new'],
+		['POST', new Route('article/create'), 'name' => 'article_post'],
+	]
+	
 );

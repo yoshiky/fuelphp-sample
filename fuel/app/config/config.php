@@ -54,7 +54,7 @@ return array(
 	 *
 	 */
 
-	// 'index_file' => false,
+	 'index_file' => false,
 
 	// 'profiling' => false,
 
@@ -142,7 +142,7 @@ return array(
 	 *  The default language.
 	 */
 
-	// 'language' => 'en',
+	'language' => 'ja',
 
 	/**
 	 *  Fallback language when file isn't available for default language.
@@ -154,7 +154,7 @@ return array(
 	 *  PHP set_locale() setting. Use null to not set.
 	 */
 
-	// 'locale' => 'en_US',
+	'locale' => 'ja_JP.UTF-8',
 
 	/**
 	 * -------------------------------------------------------------------------
@@ -198,9 +198,7 @@ return array(
 	 *
 	 */
 
-	// 'log_threshold'   => Fuel::L_WARNING,
-	// 'log_path'        => APPPATH.'logs/',
-	// 'log_date_format' => 'Y-m-d H:i:s',
+	'log_threshold'   => Fuel::L_DEBUG,
 
 	/**
 	 * -------------------------------------------------------------------------
